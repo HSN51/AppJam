@@ -17,40 +17,40 @@ class LoginPage extends StatelessWidget {
             begin: Alignment.topCenter,
             colors: [
               Colors.blue[700]!,
-              Colors.orange[400]!
+              Colors.orange[400]!,
             ],
           ),
         ),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: <Widget>[
-            SizedBox(height: 80),
-            Padding(
-              padding: EdgeInsets.all(20),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: <Widget>[
-                  Text(
-                    "Login",
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 40,
+        child: SingleChildScrollView( // SingleChildScrollView ekledik
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: <Widget>[
+              SizedBox(height: 80),
+              Padding(
+                padding: EdgeInsets.all(20),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: <Widget>[
+                    Text(
+                      "Login",
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 40,
+                      ),
                     ),
-                  ),
-                  SizedBox(height: 10),
-                  Text(
-                    "Welcome back",
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 18,
+                    SizedBox(height: 10),
+                    Text(
+                      "Welcome back",
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 18,
+                      ),
                     ),
-                  ),
-                ],
+                  ],
+                ),
               ),
-            ),
-            SizedBox(height: 20),
-            Expanded(
-              child: Container(
+              SizedBox(height: 20),
+              Container(
                 decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.only(
@@ -104,7 +104,7 @@ class LoginPage extends StatelessWidget {
                                 ),
                               ),
                               child: TextField(
-                                obscureText: true, // Yıldız şeklinde göstermek için
+                                obscureText: true,
                                 decoration: InputDecoration(
                                   hintText: "Password",
                                   hintStyle: TextStyle(color: Colors.grey),
@@ -189,8 +189,8 @@ class LoginPage extends StatelessWidget {
                   ),
                 ),
               ),
-            ),
-          ],
+            ],
+          ),
         ),
       ),
     );
