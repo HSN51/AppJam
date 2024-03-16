@@ -21,7 +21,7 @@ class LoginPage extends StatelessWidget {
             ],
           ),
         ),
-        child: SingleChildScrollView( // SingleChildScrollView ekledik
+        child: SingleChildScrollView( 
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
