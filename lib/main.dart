@@ -1,9 +1,10 @@
+import 'package:appjam_local_guide_app/homepage.dart';
 import 'package:flutter/material.dart';
 
 void main() {
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: LoginPage(),
+    home: HomePage(),
   ));
 }
 
@@ -122,6 +123,7 @@ class LoginPage extends StatelessWidget {
                       ),
                       SizedBox(height: 20),
                       Container(
+
                         height: 50,
                         margin: EdgeInsets.symmetric(horizontal: 50),
                         decoration: BoxDecoration(
@@ -129,12 +131,12 @@ class LoginPage extends StatelessWidget {
                           color: Colors.orange[900]!,
                         ),
                         child: Center(
-                          child: Text(
-                            "Login",
-                            style: TextStyle(
-                              color: Colors.white,
-                              fontWeight: FontWeight.bold,
-                            ),
+                          child: ElevatedButton(
+                            onPressed: (){
+
+                            },
+                            child: const Text('Login'),
+
                           ),
                         ),
                       ),
