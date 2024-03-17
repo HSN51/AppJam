@@ -1,10 +1,11 @@
 import 'package:appjam_local_guide_app/homepage.dart';
+import 'package:appjam_local_guide_app/profile_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: HomePage(),
+    home: LoginPage(),
   ));
 }
 
