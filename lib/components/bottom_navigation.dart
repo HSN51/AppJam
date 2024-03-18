@@ -12,6 +12,17 @@ class _BottomNavigationState extends State<BottomNavigation> {
     setState(() {
       _selectedIndex = index;
     });
+    switch (index) {
+      case 0:
+        Navigator.pushNamed(context, '/homepage');
+        break;
+      case 1:
+        Navigator.pushNamed(context, '/profilepage');
+        break;
+      case 2:
+        Navigator.pushNamed(context, '/settings');
+        break;
+    }
   }
 
   @override

@@ -1,0 +1,40 @@
+[
+  {
+    "name":"Aya Sofya",
+    "description":"Ayasofya Camii, İstanbul'un tarihi yarımadasında bulunan eşsiz bir yapıdır. 537 yılında Bizans İmparatoru I. Justinianus tarafından Ayasofya Kilisesi olarak inşa edilmiştir.",
+    "url":"assets/images/ayasofya.webp"
+  },{
+  "name":"Anıtkabir",
+  "description":"Türkiye'nin milli kimliğinin ve modern Cumhuriyet'in sembolü olarak kabul edilen Mustafa Kemal Atatürk'ün anısına yapılmış bu devasa anıt , ziyaretçilere Türkiye'nin tarihini, kültürünü ve Atatürk'ün hayatını anlamaları için bir fırsat sunar.",
+  "url":"assets/images/anıtkabir.webp"
+},
+  {
+    "name":"Kapadokya",
+    "description":"Kapadokya, Türkiye'nin Orta Anadolu bölgesinde yer alan eşsiz bir doğal ve tarihi mirası barındıran bir bölgedir. Kapadokya, lav ve küllerin milyonlarca yıl boyunca rüzgar ve su erozyonuyla şekillendirdiği peri bacaları olarak adlandırılan benzersiz kaya oluşumlarıyla ünlüdür.",
+    "url":"assets/images/kapadokya.jpg"
+  },{
+  "name":"Pamukkale",
+  "description":"Pamukkale, Türkiye'nin batısında, Denizli ilinde bulunan eşsiz doğal güzelliklere sahip bir yerdir. Türkçe'de \"pamuk kale\" anlamına gelen bu yer, beyaz traverten teraslarıyla meşhurdur.",
+  "url":"assets/images/pamukkale.webp"
+},{
+  "name":"Efes Antik Kenti",
+  "description":"Efes Antik Kenti, Türkiye'nin batısında, İzmir'in Selçuk ilçesinde yer alan muazzam bir arkeolojik alan ve tarih hazinesidir.Antik dönemin en önemli liman kentlerinden biri olan Efes, tarih boyunca önemli bir kültürel ve ticaret merkezi olmuştur.",
+  "url":"assets/images/efes.webp"
+},{
+  "name":"Safranbolu",
+  "description":"Safranbolu, Türkiye'nin Karadeniz Bölgesi'nde, Karabük iline bağlı bir ilçedir ve adını bol miktarda safran yetiştirilmesinden almaktadır. UNESCO Dünya Mirası Listesi'nde yer alan bu tarihi şehir, Osmanlı döneminden kalma muhteşem mimarisiyle ünlüdür. ",
+  "url":"assets/images/safranbolu.jpeg"
+},{
+  "name":"Sümela Manastırı",
+  "description":"Sümela Manastırı, Türkiye'nin Karadeniz bölgesinde, Trabzon iline bağlı Maçka ilçesinde bulunan tarihi bir manastırdır. Bu manastır, eşsiz doğal bir kaya yüzeyine oyulmuş olmasıyla dikkat çeker ve muhteşem dağ manzaralarıyla çevrilidir.",
+  "url":"assets/images/sumela.jpg"
+},{
+  "name":"Topkapı",
+  "description":"İstanbul'un kalbinde, tarihin izlerini taşıyan muhteşem bir yapı: Topkapı Sarayı. Osmanlı İmparatorluğu'nun 400 yılı aşkın süre başkenti olan İstanbul'un, göz alıcı manzarası eşliğinde yükselen bu saray, ziyaretçilere eşsiz bir deneyim sunuyor.",
+  "url":"assets/images/topkapi.webp"
+},{
+  "name":"Harput",
+  "description":"Harput, Türkiye'nin doğusunda, Elazığ iline bağlı bir tarihi şehirdir. Tarih boyunca birçok medeniyete ev sahipliği yapmış olan Harput, Mezopotamya'nın etkileyici manzarasıyla çevrilidir.",
+  "url":"assets/images/harput.jpg"
+}
+]
